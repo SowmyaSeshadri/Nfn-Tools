@@ -1,0 +1,192 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto !important; }
+
+.wrap {
+  width: 100%;
+  margin-top: 50px;
+  background-color: #0EC5B5;
+  padding-bottom: 90px;
+  margin-bottom: 50px;
+  vertical-align: top; }
+
+.para1, .para2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white; }
+
+.para1 {
+  font-size: 150%;
+  font-weight: 400;
+  padding-top: 30px; }
+  @media screen and (min-width: 451px) {
+    .para1 {
+      font-size: 160%; } }
+  @media screen and (min-width: 751px) {
+    .para1 {
+      font-size: 170%; } }
+  @media screen and (min-width: 951px) {
+    .para1 {
+      font-size: 180%; } }
+
+.para2 {
+  font-size: 120%;
+  font-weight: 300;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px; }
+  @media screen and (min-width: 451px) {
+    .para2 {
+      font-size: 130%; } }
+  @media screen and (min-width: 751px) {
+    .para2 {
+      font-size: 140%; } }
+  @media screen and (min-width: 951px) {
+    .para2 {
+      font-size: 150%; } }
+
+.box {
+  background-color: white;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 40px 50px;
+  text-align: center;
+  vertical-align: top; }
+  @media screen and (min-width: 768px) and (max-width: 850px) {
+    .box {
+      margin: 70px 0px 0px 50px; } }
+  @media screen and (min-width: 851px) and (max-width: 992px) {
+    .box {
+      margin: 70px 7px 0px 55px; } }
+  @media screen and (min-width: 993px) and (max-width: 1100px) {
+    .box {
+      margin: 70px 0px 0px 65px; } }
+  @media screen and (min-width: 1101px) and (max-width: 1260px) {
+    .box {
+      margin: 70px 0px 0px 70px; } }
+  @media screen and (min-width: 1261px) and (max-width: 1399px) {
+    .box {
+      margin: 70px 45px 0px 60px; } }
+  @media screen and (min-width: 1400px) {
+    .box {
+      margin: 70px 40px 0px 70px; } }
+
+.img {
+  text-align: center;
+  margin-top: 30px;
+  display: inline-block; }
+  @media screen and (min-width: 300px) {
+    .img {
+      width: 140px;
+      margin: 30px auto; } }
+  @media screen and (min-width: 656px) and (max-width: 749px) {
+    .img {
+      width: 100px; } }
+  @media screen and (min-width: 750px) and (max-width: 891px) {
+    .img {
+      width: 125px; } }
+  @media screen and (min-width: 892px) and (max-width: 991px) {
+    .img {
+      width: 125px; } }
+
+.head1 {
+  font-size: 100%;
+  color: #626262;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  min-height: 50px;
+  padding-top: 20px; }
+  @media screen and (min-width: 400px) {
+    .head1 {
+      font-size: 110%; } }
+  @media screen and (min-width: 656px) and (max-width: 749px) {
+    .head1 {
+      font-size: 95%;
+      padding-left: 30px;
+      min-height: 100px; } }
+  @media screen and (min-width: 750px) and (max-width: 900px) {
+    .head1 {
+      padding-left: 5px;
+      font-size: 110%;
+      min-height: 80px; } }
+  @media screen and (min-width: 901px) {
+    .head1 {
+      padding-left: 5px;
+      padding-right: 5px;
+      min-height: 65px; } }
+
+.head2 {
+  font-size: 110%;
+  color: #AAAAAA;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  padding-left: 5px;
+  padding-right: 5px;
+  min-height: 130px;
+  padding-top: 20px; }
+  @media screen and (min-width: 656px) and (max-width: 749px) {
+    .head2 {
+      font-size: 90%;
+      padding-left: 10px;
+      padding-right: 10px;
+      min-height: 100px; } }
+  @media screen and (min-width: 750px) and (max-width: 991px) {
+    .head2 {
+      font-size: 105%;
+      padding-left: 0px;
+      padding-right: 0px;
+      min-height: 240px; } }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .head2 {
+      font-size: 110%;
+      padding-left: 5px;
+      padding-right: 5px;
+      min-height: 200px; } }
+  @media screen and (min-width: 1200px) {
+    .head2 {
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 100%; } }
+  @media screen and (min-width: 1400px) {
+    .head2 {
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 105%; } }
+
+.bttn {
+  font-size: 110%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  color: white;
+  background-color: #23CE81;
+  padding: 10px 25px 10px 25px;
+  border-radius: 20px;
+  border-style: none;
+  display: inline-block;
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+button:hover {
+  background-color: #0EC5B5;
+  transition: 0.7s; }
+
+button {
+  cursor: pointer; }
+
+.head {
+  min-height: 180px; }
